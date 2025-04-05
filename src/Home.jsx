@@ -183,9 +183,6 @@ const Home = () => {
                     </div>
                     <p className="text-black font-bold text-lg sm:text-xl">
                       {car.price}
-                      <span className="text-gray-500 text-sm font-normal">
-                        /day
-                      </span>
                     </p>
                   </div>
 
