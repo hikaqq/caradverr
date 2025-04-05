@@ -43,7 +43,7 @@ function Header() {
   return (
     <motion.header
       className={`sticky top-0 z-50 ${
-        isScrolled ? "bg-white shadow-md" : "bg-white border-b border-gray-200"
+        isScrolled ? "bg-white" : "bg-white border-b border-gray-200"
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
